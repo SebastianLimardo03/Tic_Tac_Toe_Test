@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-right: 5px;
+    font-size: 28px;
+}
+
+.icon {
+    height: 28px;
+    margin-left: 5px;
+}
+
+.game-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.difficulty-selection {
+    height: 35px;
+    width: 140px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.start-game-button, .end-game-button {
+    color: #fff;
+    background-color: #2cb82c;
+    box-shadow: 0 0 20px rgba(44, 184, 44, 0.85);
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 140px;
+    margin-top: 15px;
+    transition: box-shadow 0.15s;
+}
+
+.end-game-button {
+    background-color: #ff0000;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.85);
+}
+
+.board-container-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.board-element {
+    position: relative;
+}
+
+.grey-square {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.move {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.move-icon {
+    width: 110px;
+}
+
+.game-status {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.credit-container {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 10px;
+}
+
+.flaticon-icon {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.credits {
+    color: #fff;
+    margin-left: 5px;
+}

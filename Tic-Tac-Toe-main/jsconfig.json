@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "checkJs": true,
+        "allowJs": true,
+        "jsx": "react", // Add this line if you are using JSX syntax
+        "resolveJsonModule": true // Add this line if you are importing JSON files
+    },
+    "include": ["**/*.js", "**/*.jsx", "**/*.html", "**/*.json"],
+    "exclude": ["node_modules"]
+}
+
